@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+        <!--android:id="@+id/actionSettings"-->
+        <!--android:icon="@mipmap/ic_launcher"-->
+        <!--android:title="Settings"-->
+        <!--app:showAsAction="ifRoom" />-->
+    <!--app:showAsAction="always" จะทำให้มันปรากฏเสมอไม่เปง ...-->
+    <!--app:showAsAction="never" จะปรากฏเปง ...-->
+    <!--app:showAsAction="ifRoom" ถ้ามีพื้นที่เหลือจะปรากฏ-->
+
+    <item
+        android:id="@+id/action_action"
+        android:title="Share"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        app:showAsAction="always"/>
+</menu>
